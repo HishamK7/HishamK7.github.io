@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(0, 119, 255);
+    color: rgb(89, 15, 208);
     padding: 10px;
     font-family: arial;
 }
@@ -11,15 +11,18 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(25, 156, 95);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border: 2px solid rgb(9, 255, 0);
+    border-radius: 25px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 0, 0);
     flex: 1;
     margin: 0;
 }
@@ -32,7 +35,8 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
+    
 }
 
 /* main container area beneath menu */
@@ -46,6 +50,8 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border: 2px solid red;
+    border-radius: 25px;
 }
 .content {
     flex: 1;
