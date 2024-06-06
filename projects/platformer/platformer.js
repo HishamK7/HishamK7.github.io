@@ -44,31 +44,30 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
     createPlatform(400, 625, 100, 20);
-    createPlatform(700, 730, 50, 20);
     createPlatform(300, 500, 50, 20);
-    createPlatform(500, 400, 60, 10);
-    createPlatform(700,275, 40, 10);
+    createPlatform(500, 370, 60, 10);
+    createPlatform(700,235, 40, 10);
     createPlatform(1000,400, 10, 10);
+    createPlatform(1200,625, 10, 10);
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("grace", 300, 450, 0, 0);
-    createCollectable("steve", 500, 350, 0, 0);
-    createCollectable("steve", 700, 235, 0, 0);
-    createCollectable("steve", 980, 360, 0, 0);
-
+    createCollectable("steve", 300, 460, 0, 0);
+    createCollectable("max", 500, 330, 0, 0);
+    createCollectable("database", 700, 195, 0, 0);
+    createCollectable("grace", 983, 360, 0, 0);
+    createCollectable("kennedi", 1183, 585, 0, 0);
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-//createCannon("bottom",500,1000);
-//createCannon("right",500,1500);
-//createCannon("right",370,1500);
-//createCannon("bottom",600,1500);
-//createCannon("right",260,1750);
+createCannon("right",500,1500);
+createCannon("right",430,2000);
+createCannon("bottom",600,1500);
+createCannon("right",200,1750);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
